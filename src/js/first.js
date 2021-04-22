@@ -53,6 +53,6 @@ document.addEventListener("DOMContentLoaded", function(){
         let nextNode = document.createTextNode("Next");
         next.appendChild(nextNode)
         pokefooter.appendChild(next)
-    })
-}
+        })
+    }
 })
