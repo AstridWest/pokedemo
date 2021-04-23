@@ -1,0 +1,17 @@
+.wrapperIndex{
+    text-align: center;
+    margin:5em;
+    color:rgb(70, 34, 104);  
+
+    &__link{
+        text-decoration: none;
+        border:2px solid black;
+        padding:1em;
+        border-radius: 5%;
+    }
+
+    &__bigheader{
+        padding-bottom: 3em;
+        font-size: 3em;
+    }
+}

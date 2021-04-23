@@ -37,10 +37,17 @@
 
 }
 
+.nextBtn, .skipBtn{
+    padding:0.3em;
+    background-color: rgba(238, 228, 248, 0.733);
+    font-weight: bolder;
+}
+
 .myCircle{
     r:0px;
     animation: circleAnimation 0.3s ease-in 0.7s forwards;
 }
+
 .tooltip{
   fill-opacity: 0;
   animation: fadeIn 0.3s ease-in 1s forwards;

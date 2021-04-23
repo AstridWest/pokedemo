@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(){
 
     const overlay = document.querySelector(".overlay");
+
+    if(overlay){ //hvis overlay findes skal alt nedenunder udføres
+
     const nextBtn = overlay.querySelector(".nextBtn");
     const skipBtn = overlay.querySelector(".skipBtn");
     const content = overlay.querySelector(".overlay__content");
@@ -81,5 +84,5 @@ document.addEventListener("DOMContentLoaded", function(){
         localstModule.create("currentStep", step);
     }
 
-
+}
 });
